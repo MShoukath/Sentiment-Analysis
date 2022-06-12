@@ -22,7 +22,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(layout = 'wide',page_title='Analy✅s')
 col1, col2 ,col3 = st.columns(3)
 with col2:
-    Logo = Image.open('analytics.png')
+    Logo = Image.open('Analytics.png')
     example = Image.open('download.jfif')
     st.image(Logo,width=450)
 
