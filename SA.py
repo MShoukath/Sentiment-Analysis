@@ -33,7 +33,7 @@ with st.sidebar:
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        This Sentiment Analysis [app](https://share.streamlit.io/giswqs/streamlit-template) is maintained by the [Doofenshmirtz Analytics Inc](https://wetlands.io).
+        This Sentiment Analysis [app](https://share.streamlit.io/mshoukath/sentiment-analysis/main/SA.py) is maintained by the [Doofenshmirtz Analytics Inc](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 #### Team19:
 
@@ -46,7 +46,7 @@ CFO - Shoukath
 Get in touch with us through:
 +919361676498
 
-Source code: <https://github.com/giswqs/streamlit-template>
+Source code: <https://github.com/MShoukath/Sentiment-Analysis>
 
 """
     )
@@ -153,7 +153,7 @@ def twitter(brand_name,st_date,ed_date):
         st.write('#### Keyword Frequency')
         example = Image.open('words.jpg')
     st.image(example)
-    st.dataframe(df)
+    # st.dataframe(df)
 
 
 def news(search_product):
