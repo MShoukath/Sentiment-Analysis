@@ -1,0 +1,10 @@
+pandas
+streamlit
+snscrape
+textblob
+altair
+nltk
+httplib2
+beautifulsoup4
+streamlit-option-menu
+wordcloud
